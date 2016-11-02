@@ -1,43 +1,75 @@
-h1
-{
+body {
+    background-image: url("background.png");
+}
+
+h1 {
     font-family: Verdana;
-    background-color: #AA40BF;
+    background-color: #A841BD;
     align-content: center;
     height: 100px;
-    width: 600px;
-    border-bottom-left-radius: 47px;
-    /*+border-radius: 15px;*/
-    -moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -khtml-border-radius: 15px;
-    border-radius: 15px;
+    width: 800px;
+    /*+border-radius: 25px;*/
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -khtml-border-radius: 25px;
+    border-radius: 25px;
     text-align: center;
     color: #FFFFFF;
+    padding: 0px;
+    margin: 39px;
+    border: 0px solid black;
 }
 
 /* inline menubar css */
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 40px;
+    padding: 0px;
     overflow: hidden;
-    background-color:  #111;
+    background-color: #111;
+    line-height: 2;
+    font-size: 25px;
+    height: 80px;
+    font-family: Verdana;
+    border-top: 0px solid black;
+    /*+border-radius: 25px;*/
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -khtml-border-radius: 25px;
+    border-radius: 25px;
+    text:none;
 }
 
 li {
-    float:left;
-
+    float: left;
 }
 
-li a{
+li a {
     display: block;
-    color:white;
-    text-align:center;
-    padding:14px 50px;
-
+    color: white;
+    text-align: center;
+    padding: 14px 50px;
 }
 
-li a:hover{
+li a:hover {
     background-color: #000;
 }
+
 /* menu end */
+header {
+    margin: 12px;
+    padding: 0px;
+}
+
+.mainsection {
+    padding: 60px;
+    margin: 55px;
+    /*+border-radius: 25px;*/
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -khtml-border-radius: 25px;
+    border-radius: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #A841BD;
+}
