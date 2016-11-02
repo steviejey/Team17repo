@@ -1,0 +1,43 @@
+h1
+{
+    font-family: Verdana;
+    background-color: #AA40BF;
+    align-content: center;
+    height: 100px;
+    width: 600px;
+    border-bottom-left-radius: 47px;
+    /*+border-radius: 15px;*/
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -khtml-border-radius: 15px;
+    border-radius: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* inline menubar css */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  #111;
+}
+
+li {
+    float:left;
+
+}
+
+li a{
+    display: block;
+    color:white;
+    text-align:center;
+    padding:14px 50px;
+
+}
+
+li a:hover{
+    background-color: #000;
+}
+/* menu end */
