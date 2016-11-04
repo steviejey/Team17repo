@@ -20,8 +20,6 @@ h1 {
 
 /* inline menubar css */
 ul {
-    margin: 0px;
-    padding: 0px;
     overflow: visible;
     background-color: #A841BD;
     font-size: 25px;
@@ -36,8 +34,8 @@ ul {
 }
 
 li {
-    float: ;
-    display: compact;
+    float: left;
+    display: block;
     margin-right: 29px;
 }
 
