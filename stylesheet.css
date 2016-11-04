@@ -56,12 +56,6 @@ li a {
 li a:hover {
     background-color: #702B7E;
 }
-@media screen and (max-width : 760px){
-    /*Make all menu links full width*/
-    ul li, li a {
-        width: 100%;
-    }
-}
 
 /* menu end */
 .mainsection {
