@@ -36,9 +36,9 @@ ul {
 }
 
 li {
-    float: unless-room;
-    display: inline-block;
-    margin-right: 1px;
+    float: ;
+    display: compact;
+    margin-right: 29px;
 }
 
 li a {
@@ -55,21 +55,25 @@ li a {
 
 li a:hover {
     background-color: #702B7E;
+    /*+border-radius: 10px;*/
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
 }
 
 /* menu end */
 .mainsection {
-    padding: 50px 150px;
-    margin: 80px;
+    margin: 30px;
     /*+border-radius: 0px;*/
     -moz-border-radius: 0px;
     -webkit-border-radius: 0px;
     -khtml-border-radius: 0px;
     border-radius: 0px;
-    text-align: center;
     color: #000000;
     background-color: #FFFFFF;
     outline: 1px solid #A841BD;
+    padding: 20px;
 }
 
 .wrapper {
