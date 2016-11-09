@@ -34,14 +34,13 @@ ul {
 }
 
 li {
-    float: left;
     display: block;
     margin-right: 29px;
 }
 
 li a {
     display: block;
-    min-width: 110px;
+    max-width: 1920px;
     text-align: center;
     line-height: 50px;
     font-family: Verdana;
