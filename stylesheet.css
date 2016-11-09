@@ -7,14 +7,14 @@ h1 {
     align-content: center;
     height: auto;
     width: auto;
-    /*+border-radius: 25px;*/
-    -moz-border-radius: 25px;
-    -webkit-border-radius: 25px;
-    -khtml-border-radius: 25px;
-    border-radius: 25px;
+    /*+border-radius: 2.5em;*/
+    -moz-border-radius: 2.5em;
+    -webkit-border-radius: 2.5em;
+    -khtml-border-radius: 2.5em;
+    border-radius: 2.5em;
     text-align: center;
-    padding: 0px;
-    margin: 20px;
+    padding: 0em;
+    margin: 1em;
     border: 0px solid black;
 }
 
@@ -40,7 +40,7 @@ li {
 
 li a {
     display: block;
-    max-width: 1920px;
+    max-width: 1000px;
     text-align: center;
     line-height: 1.5em;
     font-family: Verdana;
@@ -69,8 +69,8 @@ li a:hover {
     border-radius: 0em;
     color: #000000;
     background-color: #FFFFFF;
-    outline: 1px solid #A841BD;
-    padding: 20px;
+    outline: 0.1em solid #A841BD;
+    padding: 2em;
 }
 
 .wrapper {
