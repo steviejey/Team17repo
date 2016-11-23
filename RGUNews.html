@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:margin="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>RGU: News</title>
@@ -12,11 +12,11 @@
 <body>
 <!--<h1>Robert Gordon's University</h1>*/-->
 <!-- TRANSFER BORDER STYLE TO CSS /PLZ LEAVE DIV's Centered in HTML (its way easier) -->
-<div class="wrapper">
+<section id="wrapper">
     <!-- header area -->
     <h1><img src="rguSiteLogoHome.png"></h1>
     <!-- menu bar -->
-    <div class="menubar">
+    <div id="menubar">
 
         <ul>
             <li><a href="RGUMainMenu.html">Home</a></li>
@@ -30,7 +30,7 @@
 
     <!-- Menu bar end -->
 
-    <div class="newssection">
+    <div id="newsSection">
 
         test here test here test here test here test here test here test here test here test here test here test here test here
         test here test here test here test here test here test here test here test here test here test here test here test here
@@ -40,16 +40,18 @@
 
     </div>
     <!-- Area for Twitter feed -->
-    <a class="twitter-timeline"
-       href="https://twitter.com/RobertGordonUni"
-        data-width="300"
-        data-height="600"
-
-    >
-        Tweets by RobertGordonUni
-    </a>
-    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-</div>
+    <div id="twitterFeed">
+        <a class="twitter-timeline"
+           href="https://twitter.com/RobertGordonUni"
+           data-width="400"
+           data-height="400"
+           data-tweet-limit="3"
+           data-chrome="nofooter"
+           >
+           Tweets by @RobertGordonUni
+        </a>
+           <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+</section>
 </body>
 </html>
