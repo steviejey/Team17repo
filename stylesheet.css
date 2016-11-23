@@ -61,6 +61,18 @@ li a:hover {
 
 /*max-width: /* menu end */
 .newssection{
+    margin: 2.5em;
+    margin-left: 400px;
+    /*+border-radius: 0em;*/
+    -moz-border-radius: 0em;
+    -webkit-border-radius: 0em;
+    -khtml-border-radius: 0em;
+    border-radius: 0em;
+    color: #000000;
+    background-color: #FFFFFF;
+    outline: 0.1em solid #A841BD;
+    padding: 2em;
+    text-align: center;
 
 }
 
