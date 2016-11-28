@@ -92,6 +92,7 @@ li a:hover {
     background-color: #FFFFFF;
     outline: 0.1em solid #A841BD;
     padding: 2em;
+    max-width: 90%;
 }
 
 @media only screen and (max-width: 1350px){
