@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-    font-family: Verdana;
+    font-family: Verdana, sans-serif;
     align-content: center;
     height: auto;
     width: auto;
@@ -12,7 +12,7 @@ h1 {
     -webkit-border-radius: 2.5em;
     -khtml-border-radius: 2.5em;
     border-radius: 2.5em;
-    text-align: center;
+    text-align: left;
     padding: 0em;
     margin: 0em;
     border: 0px solid black;
@@ -24,7 +24,7 @@ ul {
     background-color: #943281;
     font-size: 2em;
     min-height: 4em;
-    font-family: Verdana;
+    font-family: Verdana, sans-serif;
     /*+border-radius: 0.5em;*/
     -moz-border-radius: 0.5em;
     -webkit-border-radius: 0.5em;
@@ -44,7 +44,7 @@ li a {
     max-width: 100%;
     text-align: center;
     line-height: 1.5em;
-    font-family: Verdana;
+    font-family: Verdana, sans-serif;
     color: #FFFFFF;
     text-decoration: none;
     font-size: 1em;
@@ -82,16 +82,13 @@ li a:hover {
 
 #mainSection {
     margin: 2.5em;
-    /*+border-radius: 0em;*/
-    -moz-border-radius: 0em;
-    -webkit-border-radius: 0em;
-    -khtml-border-radius: 0em;
-    border-radius: 0em;
     color: #000000;
     background-color: #FFFFFF;
     outline: 0.1em solid #A841BD;
     padding: 2em;
     max-width: 90%;
+    font-family: Verdana, sans-serif;
+
 }
 
 #wrapper {
