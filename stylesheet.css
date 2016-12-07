@@ -15,6 +15,7 @@ h1 {
     margin: 0em;
     border: 0px solid black;
     color: #943281;
+    text-align: center;
 }
 
 /* inline menubar css */
@@ -65,12 +66,13 @@ li a:hover {
     margin-top: 2.5em;
     color: #000000;
     background-color: #FFFFFF;
-    outline: 0.1em solid #A841BD;
+    /*outline: 0.1em solid #A841BD;*/
     padding: 2em;
     text-align: center;
     max-width:60%;
     float: left;
     font-family: Verdana, sans-serif;
+    border-radius: 0.5em;
 }
 
 @media only screen and (max-width: 1350px){
@@ -87,7 +89,7 @@ li a:hover {
         overflow: visible;
         background-color: #943281;
         font-size: 2em;
-        min-height: 2em;
+        min-height: 1.5em;
         font-family: Verdana, sans-serif;
         /*+border-radius: 0.5em;*/
         -moz-border-radius: 0.5em;
@@ -135,11 +137,11 @@ li a:hover {
     margin: 2.5em;
     color: #000000;
     background-color: #FFFFFF;
-    outline: 0.1em solid #A841BD;
+    /*outline: 0.1em solid #A841BD;*/
     padding: 2em;
     max-width: 90%;
     font-family: Verdana, sans-serif;
-
+    border-radius: 0.5em;
 }
 
 #newsStories{
@@ -147,9 +149,11 @@ text-align: left;
 }
 
 #wrapper {
+    /*
     border-width: 2px;
     border-style: groove;
     border-color: #A841BD;
+    */
 }
 
 #twitterFeed{
