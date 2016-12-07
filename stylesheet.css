@@ -94,6 +94,7 @@ li a:hover {
         -khtml-border-radius: 0.5em;
         border-radius: 0.5em;
         position: relative;
+        text-align: center;
     }
 
     li {
