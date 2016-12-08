@@ -34,6 +34,215 @@
     </div>
 
     <!-- Menu bar end -->
+	
+	<!--  GALLERY CODE HERE -- -- -- -- -->
+	
+	<div align="center">
+		<canvas 
+			style="border:1px solid #000000;" 
+			id = "mycanvas" 
+			width = "800" 
+			height = "450">
+			
+			Your browser does not support canvas
+		</canvas>
+		</div>
+		
+
+		<script>
+		
+		window.addEventListener("load", myApp, false);
+
+
+		function myApp() {
+			var canvas;
+			var context;
+			
+			
+			//image variables - turn into an array later
+			
+			var useimg; //image in use
+			var usex1; //master x position
+			var usey1;  //maser y position
+			
+			
+			var image1; // loaded image
+			var image2; // loaded image
+			var image3; // loaded image
+			var image4; // loaded image
+			var image5; // loaded image
+			
+			//image 1 x / y / xdir / ydir -- ydir is redundant as images
+			//only move horisontally
+			
+			// image 1 positioning
+			var i1x;
+			var i1y;
+			
+			var i1xdir;
+			var i1ydir;
+			
+			var clocktime;
+			var timesecs;
+			var counter;
+			
+			var galwid;
+			var galheight;
+			
+			
+			
+			
+		
+			function getCanvas() {
+				var tmp;
+				
+				tmp = document.getElementById ("mycanvas");
+				
+				if (tmp == null) {
+					alert ("no canvas");
+				}
+				
+				return tmp;
+					
+			}
+
+			
+			
+			
+			function animateMe() {
+				context.clearRect (0, 0, canvas.width, canvas.height);
+				
+				/* Solid background Fill (black)
+				Uncomment to use*/
+				
+				context.beginPath();
+				context.rect(0, 0, canvas.width, canvas.height);
+				context.rect(0, 0, canvas.width, canvas.height);
+				context.drawImage(galbck, 0, 0, galwid, galheight); 
+				counter += 1;
+				
+				
+				console.log ("Counter is " + counter)
+				//load images
+				
+				// if counter = between 0 and 600 then image1 = image
+				//else if counter between = 600 - 1200 yhen image 2 = image
+				// and so on
+				
+				// MAKE THIS WORK!
+				// MAKE THIS WORK!
+				
+				if (counter > 0 && counter < 300){
+				useimg = image1;
+				console.log("use img x is " + useimg );
+				}				
+				else if (counter > 300 && counter < 800){
+				useimg = image2;
+				//usex1 = -500;
+				} 
+				else if (counter > 800 && counter < 1200){
+				useimg = image3;
+				//usex1 = -500;
+				} 
+				else if (counter > 1200 && counter < 1600){
+				useimg = image4;
+				//usex1 = -500;
+				} 
+				else if (counter > 1600 ){
+				useimg = image5;
+				//usex1 = -500;
+				console.log("use img x is " + useimg );
+				} 
+				
+				
+				if (usex1 > 1200){
+				usex1 = -400;					
+				}
+				
+				if (counter > 2000){	
+				counter = 0;
+				}
+				
+
+
+
+				
+				
+					//usex1 = -500;
+					context.drawImage(useimg,usex1, usey1, galwid, galheight);
+					context.lineWidth = 3;
+					context.stroke();
+					
+					usex1 = usex1 + 4;
+					console.log("use img x is " + usex1 );
+
+				requestAnimationFrame (animateMe);
+				
+				
+			}
+
+			
+			
+			
+			
+			canvas = getCanvas();	
+			context = canvas.getContext ("2d");
+			
+			init();
+			
+			
+				console.log("use img x is " + usex1 );
+			
+			function init() {
+			
+			galwid = 800;
+			galheight = 500;
+			
+			usex1 = -500;
+			usey1 = 0;
+			
+				counter = 0;
+			
+				//Image 1
+				image1 = new Image();
+				image1.src = "sGalz/image1.jpg";	
+				
+				
+				
+				//Image 2
+				image2 = new Image();
+				image2.src = "sGalz/image2.jpg";	
+				
+
+				//Image 3
+				image3 = new Image();
+				image3.src = "sGalz/image3.jpg";	
+				
+				//Image 4
+				image4 = new Image();
+				image4.src = "sGalz/image4.jpg";	
+				
+				//Image 5
+				image5 = new Image();
+				image5.src = "sGalz/image5.jpg";
+				
+					//Gallery Background
+				galbck = new Image();
+				galbck.src = "sGalz/galbck.png";
+				
+							
+				animateMe();
+			}			
+
+		}
+		// --sGallz V1 - By Steve Smith- Year one javascript, go easy!		
+		</script>
+	
+	
+	
+	
+	
+	<!-- gallery code ends --------------->
 
     <div id="mainSection">
         <h1>Welcome to the RGU School of Computing!</h1>
