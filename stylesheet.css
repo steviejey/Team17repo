@@ -167,6 +167,13 @@ text-align: left;
     float: right;
 }
 
+#examArrangement{
+    color: #FFFFFF;
+    text-align: center;
+    display: block;
+}
+
+
 dd{
     color: #943281;
     font-size: 1.5em;
