@@ -149,6 +149,32 @@ li a:hover {
     border-radius: 0.5em;
 }
 
+#leftMain{
+    margin:2.5em;
+    margin-right: 0.5em;
+    color: #000000;
+    background-color: #FFFFFF;
+    /*outline: 0.1em solid #A841BD;*/
+    padding: 2em;
+    max-width: 40%;
+    font-family: Verdana, sans-serif;
+    border-radius: 0.5em;
+    float: left;
+}
+
+#rightMain{
+    margin: 2.5em;
+    margin-left: 0.5em;
+    color: #000000;
+    background-color: #FFFFFF;
+    /*outline: 0.1em solid #A841BD;*/
+    padding: 2em;
+    max-width: 40%;
+    font-family: Verdana, sans-serif;
+    border-radius: 0.5em;
+    float: right;
+}
+
 #newsStories{
 text-align: left;
 }
