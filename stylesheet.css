@@ -139,6 +139,13 @@ text-align: left;
     float: right;
 }
 
+#followUs{
+    margin: 0.5em;
+    margin-top: 2.5em;
+    float: right;
+
+}
+
 #examArrangement{
     color: #FFFFFF;
     text-align: center;
